@@ -22,7 +22,7 @@ public class HelloController {
 		return hello;
 	}
 	
-	//  /WEB-INF/views/success.jsp
+	//  /WEB-INF/views/success.jsp  11
 	@RequestMapping("/suc")
 	public String success(){
 		return "success";
